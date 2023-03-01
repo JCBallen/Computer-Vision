@@ -1,8 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread(
-    'c:/Users/juanc/Documents/PyProyects/Computer-Vision/CV-Class3/lenna.png', cv.IMREAD_GRAYSCALE)
+img = cv.imread('lenna.png', cv.IMREAD_GRAYSCALE)
 
 # cv.imshow('lol',img)
 im2 = img.copy()
